@@ -75,7 +75,11 @@ export default registerBlockType(
                         color: colorMoreText 
                       } }
                       > 
-                      <h4>{ moreTextHeading }</h4>
+                      <h4 
+                      style={ {
+                        color: colorMoreText 
+                      } }
+                      >{ moreTextHeading }</h4>
                       <p>{ moreText }</p>
                     </div>
                   </div>
