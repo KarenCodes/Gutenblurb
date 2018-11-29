@@ -25,7 +25,7 @@ export default registerBlockType(
         icon: {
 
         // ** revisit this
-            background: 'rgba(254, 243, 224, 0.52)',
+            background: 'rgba(0, 255, 233, 0.9)',
             src: 'smiley',
         },
         // ** revisit this
