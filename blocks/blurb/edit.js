@@ -109,12 +109,21 @@ export default class Edit extends Component {
                     >
                       <div 
                         className = "more-text" 
+                        > 
+                        <h4
+                          style={ {
+                            color: colorMoreText 
+                          } }
+                        >
+                          { moreTextHeading }
+                        </h4>
+                        <p
                         style={ {
                           color: colorMoreText 
-                        }}
-                        > 
-                        <h4>{ moreTextHeading }</h4>
-                        <p>{ moreText }</p>
+                        } }
+                        >
+                          { moreText }
+                        </p>
                       </div>
                     </div> 
                 )}
