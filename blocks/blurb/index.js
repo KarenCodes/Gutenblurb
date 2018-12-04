@@ -49,58 +49,59 @@ export default registerBlockType(
            
             return (
                 
-                <div 
-                  className = "blurb"
-                  style={ 
-                    { backgroundImage: compute.backgroundImage( backgroundImage ) }
-                    }
-                >
-                  <h3 
-                    className="heading" 
-                    style={ { 
-                      color: colorHeading,
-                      backgroundColor: compute.rgba( colorHeadingBkg, opacityHeadingBkg )
-                      } }
-                      > 
-                    { heading }
-                  </h3>
-                  <div className = "overlay"
-                    style={ {
-                    backgroundColor: compute.rgba( colorOverlay, opacityOverlay )
+              <div 
+                className = "blurb"
+                style={ 
+                  { backgroundImage: compute.backgroundImage( backgroundImage ) }
+                  }
+              >
+                <h3 
+                  className="heading" 
+                  style={ { 
+                    color: colorHeading,
+                    backgroundColor: compute.rgba( colorHeadingBkg, opacityHeadingBkg )
                     } }
-                    >
-                    <div 
-                      className = "more-text" 
-                      style={ {
-                        color: colorMoreText 
-                      } }
-                      > 
-                        <h4
-                          style={ {
-                            color: colorMoreText 
-                          } }
-                        >
-                          { moreTextHeading }
-                        </h4>
-                        <p
-                          style={ {
-                            color: colorMoreText
-                          } }
-                        >
-                          { moreText }
-                        </p>
-                    </div>
+                    > 
+                  { heading }
+                </h3>
+                <div className = "overlay"
+                  style={ {
+                  backgroundColor: compute.rgba( colorOverlay, opacityOverlay )
+                  } }
+                  >
+                  <div 
+                    className = "more-text" 
+                    style={ {
+                      color: colorMoreText 
+                    } }
+                    > 
+                      <h4
+                        style={ {
+                          color: colorMoreText 
+                        } }
+                      >
+                        { moreTextHeading }
+                      </h4>
+                      <p
+                        style={ {
+                          color: colorMoreText
+                        } }
+                      >
+                        { moreText }
+                      </p>
                   </div>
+                </div>
 
-              </div>
-            );
+            </div>
+          );
         },
-        deprecated: [
-          {attributes: attributes,
-          
+        deprecated: [ 
+          {
+            attributes: attributes,
+            
             save: props => {
               const { attributes: { heading, moreText, moreTextHeading,colorHeading, colorHeadingBkg, opacityHeadingBkg, colorMoreText, colorOverlay, opacityOverlay, backgroundImage } } = props;
-             
+              
               return (
                   
                   <div 
@@ -133,10 +134,10 @@ export default registerBlockType(
                           <p>{ moreText }</p>
                       </div>
                     </div>
-  
+
                 </div>
               );
-          }, 
+            }, 
           }
         ]
     },
