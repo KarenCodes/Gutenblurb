@@ -17,7 +17,6 @@
  * Domain Path: /languages
  * License:     GPL2+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
- * update from github using https://github.com/afragen/github-updater
  * GitHub Plugin URI: https://github.com/KarenCodes/gutenblurb
  */
 
