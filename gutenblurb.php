@@ -8,7 +8,7 @@
  *
  * @wordpress-plugin
  * Plugin Name: Gutenberg - Gutenblurb
- * Plugin URI:  https://websavvystudio.com
+ * Plugin URI:  http://gutenblurb.com
  * Description: A plugin containing Gutenberg Blurb
  * Version:     1.0
  * Author:      Karen Neumann
