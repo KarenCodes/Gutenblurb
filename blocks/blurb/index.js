@@ -126,12 +126,21 @@ export default registerBlockType(
                       >
                       <div 
                         className = "more-text" 
-                        style={ {
-                          color: colorMoreText 
-                        } }
                         > 
-                          <h4>{ moreTextHeading }</h4>
-                          <p>{ moreText }</p>
+                          <h4
+                          style={ {
+                            color: colorMoreText 
+                          } }
+                          >
+                            { moreTextHeading }
+                          </h4>
+                          <p
+                          style={ {
+                            color: colorMoreText 
+                          } }
+                          >
+                            { moreText }
+                          </p>
                       </div>
                     </div>
 
