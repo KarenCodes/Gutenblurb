@@ -10,7 +10,7 @@
  * Plugin Name: Gutenberg - Gutenblurb
  * Plugin URI:  http://gutenblurb.com
  * Description: A plugin containing Gutenberg Blurb
- * Version:     1.0
+ * Version:     1.1
  * Author:      Karen Neumann
  * Author URI:  https://twitter.com/karencodes
  * Text Domain: gutenblurb
